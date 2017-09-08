@@ -1,17 +1,17 @@
 import copy
 
+
 def main():
     # We need to get the length of the permutation from file
-    with open('sample.in', 'r') as f:
+    with open('rosalind_perm.txt', 'r') as f:
         perm_len = int(f.read())
 
     # Now we want to generate the initial permutation
     initial_perm = []
     for i in range(perm_len):
         initial_perm.append(i+1)
-    all_perms = generate_perms(perm_len, initial_perm)
-    print(all_perms)
-    # format_and_print(all_perms)
+    all_perms = generate_perms(perm_len, initial_perm))
+    format_and_print(all_perms)
 
 
 # Heap's algorithm non-recursive
