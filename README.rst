@@ -7,4 +7,4 @@ Some of the exercises were completed prior to creating the repository, I will ad
 
 I welcome pull requests which improve on the solutions I have proposed.
 
-I will be using Python 3.4 for the majority of the exercises.
+I will be using Python 3 for the majority of the exercises.
